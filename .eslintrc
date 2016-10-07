@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+
+  "env": {
+    "mocha": true
+  },
+
+  "rules": {
+    "semi": [2, "never"],
+    "no-console": 0
+  },
+
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack/development.config.js"
+      }
+    }
+  }
+}
